@@ -1,0 +1,18 @@
+.button {
+    background-color: #7b16ff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+h1 {
+    color: #7b16ff;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}

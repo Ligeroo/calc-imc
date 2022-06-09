@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="imc.js"></script>
+    
+</head>
+
+<body>
+    <h1>Calcular IMC</h1>
+    <form id="frmContato" method="post" action="sucesso.html">
+        <label for="Peso">Peso</label><br>
+        <input type="text" name="Peso" id="Peso" class="peso" maxlength="7">
+        <br>
+        <label for="Altura">Altura</label><br>
+        <input type="text" name="Altura" id="Altura" class="altura">
+        <br><br>
+        <input type="button" name="BtnEnviar" id="BtnEnviar" value="Enviar" class="button" onclick="calcularimc();">
+    </form>
+
+    <div id="erro" class="modal">
+        <p></p>
+    </div>
+    <div id="resultado" class="modal">
+        <p></p>
+    </div>
+
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery.mask.js"></script>
+    <script type="text/javascript" src="jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="jquery.modal.min.css">
+    <script type="text/javascript" src="imc.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</body>
+
+</html>
